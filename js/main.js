@@ -2,12 +2,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const panels = document.querySelectorAll('.panel');
 
     function toggleOpen() {
-        console.log('Hello');
+        panels.forEach(panel => panel.classList.remove('open'));
         this.classList.toggle('open');
     }
 
     function toggleActive(e) {
-        console.log(e.propertyName);
         if (e.propertyName.includes('flex')) {
             this.classList.toggle('open-active');
         }
