@@ -5,4 +5,4 @@
 
 **Description**
 
-Gallery with images that are opened when you click on them. When you open it, additional text appears and the font increases.
+Gallery with images that open when you click on them. When you open it, additional text appears and the font grows larger. Practice with flexbox.
